@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="main-box">
-            
-        <h1>Guess the number..</h1>
-        <div>
-        <p>Enter a guess between 0 to 100</p>
-        <form>
-            <input type="number" placeholder="Enter Number" max="100" min="0" class="input" required>
-            <div>
-                <button class="submitBtn">Submit</button>
-                <button type="button" disabled class="restart">Restart</button>
-            </div>
+      <div class="main-box">
+        <h1><span>String</span> Transform</h1>
+        <div class="input-box">
+          <input
+            type="text"
+            placeholder="Enter a String"
+            class="input"
+            required
+          />
 
-        </form>
-        <h3 class="result"></h3>
-        <p class="guess">Your Guesses : [<span class="all-guesses"></span>]</p>
-
+          <button class="submitBtn">Submit</button>
         </div>
-        
-        </div>
+      </div>
+      <div class="transformed-string-box">
+        <span class="transform-title">Uppercase</span>
+        <p class="transformed-text"></p>
+      </div>
     </main>
-</body>
+  </body>
 </html>
